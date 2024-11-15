@@ -1,0 +1,41 @@
+body {
+    background-color: darkgreen;
+}
+#container{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+#taskInput{
+    font-size: 90%;
+    margin-top: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+#taskList{
+    list-style-type: none;
+}
+.button{
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 0;
+}
+.removeButton{
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.removeButton:hover{
+    background-color: blue;
+}
+.button:hover{
+    background-color: blue;
+}
